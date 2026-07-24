@@ -370,6 +370,11 @@ section {
     gap:80px;
     margin-top:50px;
 }
+    .experience-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    border:3px solid red;
+}
 
 .experience-item{
     text-align:center;
