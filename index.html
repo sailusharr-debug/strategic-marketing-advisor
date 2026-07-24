@@ -1,261 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 
-<title>Sai Lu Sharr | Strategic Marketing Advisor</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+Sai Lu Sharr | Strategic Marketing Advisor
+</title>
 
-<style>
-
-* {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color:#111111;
-    background:#ffffff;
-}
-
-
-nav {
-    height:80px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:0 80px;
-    border-bottom:1px solid #eeeeee;
-}
-
-
-.logo {
-    font-size:24px;
-    font-weight:700;
-    letter-spacing:2px;
-}
-
-
-.logo span {
-    color:#C8A951;
-}
-
-
-.menu a {
-    text-decoration:none;
-    color:#111;
-    margin-left:35px;
-    font-size:14px;
-}
-
-
-.button {
-
-    background:#111;
-    color:white;
-    padding:15px 30px;
-    text-decoration:none;
-    font-size:14px;
-}
-
-
-.hero {
-
-    min-height:90vh;
-    display:flex;
-    align-items:center;
-    padding:80px;
-}
-
-
-.hero-left {
-
-    width:55%;
-
-}
-
-
-.label {
-
-    color:#C8A951;
-    font-size:14px;
-    letter-spacing:3px;
-    margin-bottom:25px;
-
-}
-
-
-h1 {
-
-    font-size:72px;
-    line-height:1.05;
-    letter-spacing:-3px;
-    margin-bottom:30px;
-
-}
-
-
-.gold {
-
-    color:#C8A951;
-
-}
-
-
-.description {
-
-    font-size:20px;
-    line-height:1.7;
-    color:#555;
-    max-width:600px;
-    margin-bottom:40px;
-
-}
-
-
-.hero-right {
-
-    width:45%;
-    height:500px;
-    background:#f5f5f5;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-}
-
-
-.photo-placeholder {
-
-    font-size:18px;
-    color:#999;
-
-}
-
-
-.section {
-
-    padding:100px 80px;
-
-}
-
-
-.dark {
-
-    background:#111;
-    color:white;
-
-}
-
-
-.title {
-
-    font-size:48px;
-    margin-bottom:40px;
-
-}
-
-
-.cards {
-
-    display:flex;
-    gap:30px;
-
-}
-
-
-.card {
-
-    flex:1;
-    padding:40px;
-    border:1px solid #eeeeee;
-
-}
-
-
-.card h3 {
-
-    margin-bottom:15px;
-
-}
-
-
-.card p {
-
-    color:#666;
-    line-height:1.6;
-
-}
-
-
-.dark .card {
-
-    border-color:#333;
-
-}
-
-
-.dark .card p {
-
-    color:#bbb;
-
-}
-
-
-.footer {
-
-    padding:50px 80px;
-    text-align:center;
-    color:#777;
-
-}
-
-
-
-@media(max-width:900px){
-
-nav {
-    padding:20px;
-}
-
-.hero {
-
-    flex-direction:column;
-    padding:40px;
-
-}
-
-.hero-left,
-.hero-right {
-
-    width:100%;
-
-}
-
-h1 {
-
-    font-size:45px;
-
-}
-
-.cards {
-
-    flex-direction:column;
-
-}
-
-}
-
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 
 <body>
 
+
+<!-- Navigation -->
+
+<header>
 
 <nav>
 
@@ -264,68 +29,92 @@ SLS<span>.</span>
 </div>
 
 
-<div class="menu">
+<div class="nav-links">
 
 <a href="#">Home</a>
 <a href="#">About</a>
 <a href="#">Services</a>
+<a href="#">Case Studies</a>
 <a href="#">Insights</a>
 <a href="#">Contact</a>
 
 </div>
 
 
+<a class="nav-button" href="#">
+Book Strategy Session
+</a>
+
+
 </nav>
 
+</header>
+
+
+
+<!-- Hero Section -->
 
 
 <section class="hero">
 
 
-<div class="hero-left">
+<div class="hero-content">
 
 
-<div class="label">
+<p class="eyebrow">
 STRATEGIC MARKETING ADVISOR
-</div>
+</p>
 
 
 <h1>
 
-Helping CEOs Make Better
-<span class="gold">
+Helping CEOs Make Better 
+<span>
 Marketing Decisions
 </span>
 
 </h1>
 
 
-<p class="description">
+<p class="hero-text">
 
 I help founders and business leaders solve complex marketing challenges, build stronger brands, and create growth strategies that drive measurable results.
 
 </p>
 
 
-<a class="button" href="#">
+<div class="hero-buttons">
+
+<a class="primary-btn" href="#">
 Book Strategy Session
+</a>
+
+
+<a class="secondary-btn" href="#">
+View My Work
 </a>
 
 
 </div>
 
 
+</div>
 
-<div class="hero-right">
 
-<div class="photo-placeholder">
 
-Your Professional Image
+<div class="hero-image">
+
+<div class="image-placeholder">
+
+Sai Lu Sharr
+
+<br>
+
+Strategic Advisor Photo
 
 </div>
 
 </div>
-
 
 
 </section>
@@ -333,13 +122,20 @@ Your Professional Image
 
 
 
-<section class="section dark">
+
+<!-- Who I Help -->
 
 
-<h2 class="title">
+<section class="who">
 
-Who I Help
 
+<p class="eyebrow">
+WHO I HELP
+</p>
+
+
+<h2>
+I work with ambitious leaders who want to grow with clarity.
 </h2>
 
 
@@ -353,7 +149,7 @@ CEOs & Founders
 </h3>
 
 <p>
-Make better marketing decisions and build sustainable growth strategies.
+Make better marketing decisions and build sustainable growth.
 </p>
 
 </div>
@@ -381,7 +177,7 @@ Growing Brands
 </h3>
 
 <p>
-Build stronger positioning and competitive advantage.
+Create stronger positioning and competitive advantage.
 </p>
 
 </div>
@@ -395,14 +191,22 @@ Build stronger positioning and competitive advantage.
 
 
 
-<section class="section">
+
+<!-- Services -->
 
 
-<h2 class="title">
+<section class="services">
 
+
+<p class="eyebrow">
+WHAT I DO
+</p>
+
+
+<h2>
 Strategic Advisory Services
-
 </h2>
+
 
 
 <div class="cards">
@@ -415,7 +219,7 @@ Marketing Strategy
 </h3>
 
 <p>
-Create clear strategies aligned with business goals.
+Build a clear roadmap aligned with your business goals.
 </p>
 
 </div>
@@ -429,7 +233,7 @@ Brand Positioning
 </h3>
 
 <p>
-Define your unique position in the market.
+Define your unique position and competitive advantage.
 </p>
 
 </div>
@@ -443,11 +247,10 @@ Growth Systems
 </h3>
 
 <p>
-Build repeatable marketing systems for growth.
+Create repeatable marketing systems for long-term growth.
 </p>
 
 </div>
-
 
 
 </div>
@@ -458,7 +261,90 @@ Build repeatable marketing systems for growth.
 
 
 
-<footer class="footer">
+
+<!-- Case Studies -->
+
+
+<section class="cases">
+
+
+<p class="eyebrow">
+SELECTED WORK
+</p>
+
+
+<h2>
+Solving real challenges. Delivering real results.
+</h2>
+
+
+
+<div class="case-grid">
+
+
+<div>
+<h3>
+LOYAR
+</h3>
+<p>
+Growth Strategy & Marketing System
+</p>
+</div>
+
+
+<div>
+<h3>
+HARANG
+</h3>
+<p>
+Brand Strategy & Market Positioning
+</p>
+</div>
+
+
+<div>
+<h3>
+ASCE+
+</h3>
+<p>
+Market Education Strategy
+</p>
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!-- About -->
+
+
+<section class="about">
+
+
+<h2>
+About Sai Lu Sharr
+</h2>
+
+
+<p>
+
+Strategic Marketing Advisor helping founders and companies make better decisions through strategy, branding, and market intelligence.
+
+</p>
+
+
+</section>
+
+
+
+
+
+<footer>
 
 © Sai Lu Sharr — Strategic Marketing Advisor
 
@@ -467,4 +353,5 @@ Build repeatable marketing systems for growth.
 
 
 </body>
+
 </html>
