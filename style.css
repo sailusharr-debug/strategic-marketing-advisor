@@ -358,61 +358,32 @@ section {
     /* Experience Section */
 
 
-.experience {
-
-    padding:80px;
-    border-top:1px solid #eeeeee;
-    border-bottom:1px solid #eeeeee;
-
+.experience{
+    max-width:1200px;
+    margin:100px auto;
+    padding:0 40px;
 }
-
-
-.experience-grid {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 60px;
-    margin-top: 50px;
-
-
-}
-
-
-.experience-item {
-
-    flex:1;
-    text-align:center;
-
-}
-
-
-.experience-item h3 {
-
-    font-size:64px;
-    letter-spacing:-2px;
-    margin-bottom:15px;
-
-}
-
-
-.experience-item p {
-
-    color:#666;
-    font-size:18px;
-
-}
-
-
-@media(max-width:900px){
 
 .experience-grid{
-
-    flex-direction:column;
-
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:80px;
+    margin-top:50px;
 }
 
+.experience-item{
+    text-align:center;
 }
 
+.experience-item h3{
+    font-size:64px;
+    font-weight:700;
+    color:#C9A227;
+    margin-bottom:15px;
+}
 
+.experience-item p{
+    font-size:20px;
+    line-height:1.7;
+    color:#444;
 }
