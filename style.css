@@ -355,5 +355,60 @@ section {
 
 }
 
+    /* Experience Section */
+
+
+.experience {
+
+    padding:80px;
+    border-top:1px solid #eeeeee;
+    border-bottom:1px solid #eeeeee;
+
+}
+
+
+.experience-grid {
+
+    display:flex;
+    gap:40px;
+    margin-top:40px;
+
+}
+
+
+.experience-item {
+
+    flex:1;
+
+}
+
+
+.experience-item h3 {
+
+    font-size:64px;
+    letter-spacing:-2px;
+    margin-bottom:15px;
+
+}
+
+
+.experience-item p {
+
+    color:#666;
+    font-size:18px;
+
+}
+
+
+@media(max-width:900px){
+
+.experience-grid{
+
+    flex-direction:column;
+
+}
+
+}
+
 
 }
